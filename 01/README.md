@@ -1,5 +1,5 @@
 ### 1. Hugging Face Hub como plataforma
-- [Ventajas](.ventajas-hugginface-hub.md)
+- [Ventajas](./ventajas-hugginface-hub.md)
 - [Hugginface Hub](./hugginface-hub.md)
 
 ### 2. Mistral vs Falcon
