@@ -1,0 +1,564 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Horarios</title>
+  </head>
+  <style>
+    @page {
+      size: A4 landscape;
+    }
+
+    @media print {
+      body {
+        font-family: Calibri, Arial, sans-serif;
+      }
+       
+      * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    .container {
+      margin-left: 10mm;
+      margin-top: 20mm;
+      margin-right: 5mm;
+      margin-bottom: 5mm;
+    }
+    table {
+      font-family: Consolas, monospace;
+      font-size: 14pt;
+      border: 1pt solid black;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+     
+    td:not(:first-child),
+    th:not(:first-child) {
+      width: 25pt;
+    }
+
+     
+    table tr:first-child th {
+      font-size: 9pt;
+      font-weight: normal;
+    }
+
+     
+    table tr:nth-child(2) th {
+      font-size: 11pt;
+      font-weight: bold;
+    }
+
+     
+    table tr:nth-child(2n + 4) td {
+      background-color: #eeeeee;
+    }
+
+     
+    table tr:first-child th.range {
+      width: 160pt;
+      text-align: center;
+      font-size: 16pt;
+      font-weight: bold;
+      background-color: black;
+      color: #eeeeee;
+    }
+
+     
+    td:first-child {
+      width: 160pt;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 10pt;
+    }
+
+     
+    th:nth-child(1),
+    td:nth-child(1) {
+      border-right: 2pt solid black;
+    }
+
+     
+    th:nth-child(7n + 8),
+    td:nth-child(7n + 8) {
+      border-right: 2pt solid black;
+    }
+
+    th {
+      border: 1pt solid black;
+      white-space: nowrap;
+    }
+    th.S,
+    th.D {
+      background-color: #ff0000;
+      color: #ffff00;
+    }
+
+    th.L,
+    th.M,
+    th.X,
+    th.J,
+    th.V {
+      background-color: #bfbfbf;
+    }
+
+    th,
+    td {
+      text-align: center;
+    }
+
+    td.L {
+      font-weight: bold;
+      background-color: #c5e0b4 !important;
+    }
+
+    td.V {
+      background-color: #ffd966 !important;
+    }
+
+    td.B {
+      background-color: #ff5050 !important;
+    }
+
+    td.F {
+      background-color: #00b050 !important;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <table>
+        
+        <tr>
+          <th rowspan="2" class="range">9/3 al 29/3</th>
+           
+          <th>9/3</th>
+          
+          <th>10/3</th>
+          
+          <th>11/3</th>
+          
+          <th>12/3</th>
+          
+          <th>13/3</th>
+          
+          <th>14/3</th>
+          
+          <th>15/3</th>
+            
+          <th>16/3</th>
+          
+          <th>17/3</th>
+          
+          <th>18/3</th>
+          
+          <th>19/3</th>
+          
+          <th>20/3</th>
+          
+          <th>21/3</th>
+          
+          <th>22/3</th>
+            
+          <th>23/3</th>
+          
+          <th>24/3</th>
+          
+          <th>25/3</th>
+          
+          <th>26/3</th>
+          
+          <th>27/3</th>
+          
+          <th>28/3</th>
+          
+          <th>29/3</th>
+           
+        </tr>
+
+        
+        <tr>
+           
+          <th class="L">L</th>
+          
+          <th class="M">M</th>
+          
+          <th class="X">X</th>
+          
+          <th class="J">J</th>
+          
+          <th class="V">V</th>
+          
+          <th class="S">S</th>
+          
+          <th class="D">D</th>
+            
+          <th class="L">L</th>
+          
+          <th class="M">M</th>
+          
+          <th class="X">X</th>
+          
+          <th class="J">J</th>
+          
+          <th class="V">V</th>
+          
+          <th class="S">S</th>
+          
+          <th class="D">D</th>
+            
+          <th class="L">L</th>
+          
+          <th class="M">M</th>
+          
+          <th class="X">X</th>
+          
+          <th class="J">J</th>
+          
+          <th class="V">V</th>
+          
+          <th class="S">S</th>
+          
+          <th class="D">D</th>
+           
+        </tr>
+
+        
+        
+        <tr>
+          <td>Trabajador primero  #1</td>
+           
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+            
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador #2</td>
+           
+          <td class="M">M</td>
+          
+          <td class="T">T</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+            
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+          
+          <td class="V">V</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador #3</td>
+           
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+            
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador #4</td>
+           
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador de prueba #5</td>
+           
+          <td class="T">T</td>
+          
+          <td class="M">M</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="T">T</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+            
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador #6</td>
+           
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+            
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="M">M</td>
+          
+          <td class="L">L</td>
+          
+          <td class="L">L</td>
+           
+        </tr>
+        
+        <tr>
+          <td>Trabajador #7</td>
+           
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+            
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+            
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+          
+          <td class="">&nbsp;</td>
+           
+        </tr>
+        
+      </table>
+    </div>
+  </body>
+</html>
